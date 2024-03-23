@@ -9,7 +9,7 @@ import (
 
 	"errors"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	"internal"
+	"github.com/booya/pulumi-openwrt/sdk/go/openwrt/internal"
 )
 
 type Random struct {

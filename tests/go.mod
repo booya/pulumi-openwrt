@@ -1,8 +1,8 @@
-module github.com/pulumi/pulumi-openwrt/tests
+module github.com/booya/pulumi-openwrt/tests
 
 go 1.21
 
-replace github.com/pulumi/pulumi-openwrt/provider => ../provider
+replace github.com/booya/pulumi-openwrt/provider => ../provider
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
