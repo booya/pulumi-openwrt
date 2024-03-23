@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "openwrt",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_openwrt",
   "classes": {
-   "xyz:index:Random": "Random"
+   "openwrt:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "openwrt",
+  "token": "pulumi:providers:openwrt",
+  "fqn": "pulumi_openwrt",
   "class": "Provider"
  }
 ]

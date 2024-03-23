@@ -1,13 +1,13 @@
-name: provider-xyz-native
+name: provider-openwrt-native
 runtime: yaml
 plugins:
   providers:
-    - name: xyz
+    - name: openwrt
       path: ../../bin
 
 resources:
   myRandomResource:
-    type: xyz:Random
+    type: openwrt:Random
     properties:
       length: 24
 
